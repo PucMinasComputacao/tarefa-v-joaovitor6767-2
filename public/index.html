@@ -3,10 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Site Betim</title>
     <link rel="stylesheet" href="style.css">
+     <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background: #0258b9;
+      color: white;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .banner {
+      width: 100%;
+      height: 300px;
+      background: url('https://marioheringer.com.br/wp-content/uploads/2025/09/betim-1.jpg') no-repeat center/cover;
+      border-radius: 10px;
+    }
+
+    section {
+      padding: 20px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      margin: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    footer {
+      background: rgb(35, 67, 247);
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    footer a {
+     color: #ccc;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-    
+<header>
+    <h1>Cidade Betim</h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Sobre</a>
+      <a href="#">Serviços</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="banner"></div>
+    <h2>Seja Bem Vindo a Betim!</h2>
+    <p>Betim é aquele lugar onde a simplicidade das ruas encontra a grandeza dos sonhos, e cada canto guarda histórias que aquecem o coração de quem chama essa cidade de lar..</p>
+  </main>
+
+  <section>
+    <div class="card">
+      <img src="https://blog.blablacar.com.br/wp-content/uploads/2024/05/betim-mg-3.webp" alt="Imagem 1" height="120" width="180">
+      <div class="card-content">
+        <h3>Natureza e lazer</h3>
+        <p>A natureza e o lazer em Betim oferecem espaços tranquilos com áreas verdes, ideais para relaxar, caminhar e aproveitar momentos ao ar livre.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://portalatalaia.com.br/wp-content/uploads/2026/03/casa-da-cultura.jpg" alt="Imagem 2" height="120" width="180">
+      <div class="card-content">
+        <h3>Cultura e história</h3>
+        <p>A cultura e a história de Betim refletem tradições mineiras, com forte religiosidade, festas populares e um povo acolhedor que preserva suas raízes mesmo com o crescimento da cidade.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW4gpvuCAYj1V2B-2FNbPVpapdOZzWajkBOQ&s" alt="Imagem 3" height="120" width="180">
+      <div class="card-content">
+        <h3>Passeio urbano</h3>
+        <p>Opções pra quem quer lazer mais urbano: cinema, lojas e praça de alimentação.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Meu Site</p>
+    <p>
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+    </p>
+  </footer>
 </body>
 </html>
