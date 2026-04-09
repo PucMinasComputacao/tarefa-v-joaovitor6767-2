@@ -16,7 +16,7 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Print da versão responsiva com CSS puro [DESKTOP]
 
-![texto](file:///C:/Users/vanis/Downloads/site%20betim%20site.png)
+![texto](https://github.com/PucMinasComputacao/tarefa-v-joaovitor6767-2/blob/main/site%20betim%20site.png?raw=true)
 
 ## Print da versão responsiva com CSS puro [MOBILE] (*)
 
