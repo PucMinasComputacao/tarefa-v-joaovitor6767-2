@@ -20,7 +20,7 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Print da versão responsiva com CSS puro [MOBILE] (*)
 
-![texto](file:///C:/Users/vanis/Downloads/mobilebetimmobile.png)
+![texto](https://github.com/PucMinasComputacao/tarefa-v-joaovitor6767-2/blob/main/mobilebetimmobile.png?raw=true)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
